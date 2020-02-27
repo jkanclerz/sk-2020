@@ -62,4 +62,5 @@ aby załączyć obrazek
 ![alt schemat](images/my-network-schema.png)
 ```
 
+![my network](network.png)
 
