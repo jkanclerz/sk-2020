@@ -2,7 +2,7 @@
 
 ## Informacje
 
-[E-uczelnia kurs] https://e-uczelnia.uek.krakow.pl/course/view.php?id=10705
+[E-uczelnia kurs](https://e-uczelnia.uek.krakow.pl/course/view.php?id=10705)
 
 Załączony kurs zawiera zawiera referencyjne maszyny wirtualne, do wykorzystania podczas realizowanych zadań 
 
