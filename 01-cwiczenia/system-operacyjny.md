@@ -39,18 +39,20 @@
 | nazwa                     | linux                 | centos 7                  |
 | cfg interfejsów           | centos 7 | /etc/sysconfig/network-scripts         |
 | program (parametry sieci) | niewiem               |                           |
-| ....                      | .....                 |                           |
+| ....                      | alpine                |showw all ip configuration|
+|Parametry IP               |$ ip a                 | default just geteway -em  |
+|DNS cfg                    |$ cat /etc/resolv.conf | DNS
 
 
 ### Konfiguracja połączenia sieciowego
 
-| Parametr | wartość           | komentarzu |
-| ------------- |:-------------:| -----:|
-| Adres IP      | XX.XX.XX.XX | przydzielony przez DHCP |
-| Maska podsieci      |  |  |
-| Brama      |  |  |
-| DNS 1      |  |  |
-| DNS 2      |  |  |
+| Parametr | wartość              | komentarzu |
+| -------------   |:-------------:| -----:|
+| Adres IP        | 10.0.2.15     | przydzielony przez DHCP |
+| Maska podsieci  |10.0.2.15/24   |  |notacja cidr / 255.255.255.0
+| Brama           |10.0.2.2       |  |#w ip groue show
+| DNS 1           |10.10.08       |  |
+| DNS 2           |10.10.04       |  |
 
 ### Schemat sieci
 
@@ -63,4 +65,3 @@ aby załączyć obrazek
 ```
 
 ![my network](network.png)
-
