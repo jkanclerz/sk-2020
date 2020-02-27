@@ -9,7 +9,8 @@
    * Adres bramy
    * DNS 1
    * DNS 2
-        Powyższe parametry uzyskaj na wszystkich z wymienionych systemów
+    
+    Powyższe parametry uzyskaj na wszystkich z wymienionych systemów
 
    * [Linux Alpine](https://alpinelinux.org/)
    * [Linux Debian](https://www.debian.org/)
@@ -23,7 +24,7 @@
    * DNS 1
    * DNS 2
   
-  Przygotuj dokumentację graficzną Twojej sieci domowej, uwzględnij adresy i urządzenia
+    Przygotuj dokumentację graficzną Twojej sieci domowej, uwzględnij adresy i urządzenia
 
 3. Zarejestruj konto w CISCO Academy celem pobrania Packet tracer
    https://www.netacad.com/courses/packet-tracer
