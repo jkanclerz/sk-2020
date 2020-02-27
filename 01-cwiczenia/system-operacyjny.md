@@ -40,7 +40,8 @@
 | cfg interfejsów           | centos 7 | /etc/sysconfig/network-scripts         |
 | program (parametry sieci) | niewiem               |                           |
 | ....                      | .....                 |                           |
-
+| nazwa                     | Alpine Linux          |                           |
+| Konfiguracja ip           | ``$ ip all ``         | show all eth interfaces   |
 
 ### Konfiguracja połączenia sieciowego
 
