@@ -16,9 +16,9 @@ Oraz referencyjną wersję kalkulatora IP z wykorzystaniem excel
 
 ## Oprogramoowanie
 
-    * cisco packet tracer
-    * virtualbox
-    * https://www.draw.io/ 
+  * cisco packet tracer
+  * virtualbox
+  * https://www.draw.io/ 
 
 ## Zagadnienia
 
