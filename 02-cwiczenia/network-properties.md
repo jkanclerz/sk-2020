@@ -42,15 +42,15 @@ Wejściowe parametry sieci
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  | 192.168.10.10 | |
-| MASKA  | 255.255.255.0 | |
+| IP - address  | 192.168.10.10/24 | |
+| MASKA  | 255.255.255.0/24 | |
 |   |  | |
 | PC 2  |  | |
-| IP - address  | 192.168.10.11 | |
-| MASKA  | 255.255.128.0 | |
+| IP - address  | 192.168.10.11/17 | |
+| MASKA  | 255.255.128.0/17 | |
 | PC 2  |  | |
-| IP - address  | 172.16.100.100 | |
-| MASKA  | 255.255.0.0 | |
+| IP - address  | 172.16.100.100/16 | |
+| MASKA  | 255.255.0.0/16 | |
 
 Weryfikacja połączenia
 
@@ -78,7 +78,10 @@ Nowa statyczna konfiguracja
 Weryfikacja połączenia
 
 Polecenie
-```
+ping <adres> sprawdza czy odpowiada
+ip addr flush eth0 usuwa adresy
+ip addr show eth0 pokazuje
+ip addr add 10.0.15.6/24 dev eth0 dodaje adres do devide eth0 
 ```
 
 Efekt
