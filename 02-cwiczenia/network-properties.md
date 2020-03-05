@@ -29,11 +29,11 @@ Wejściowe parametry sieci
 Weryfikacja połączenia
 
 Polecenie
-```
+ping 10.0.15.4
 ```
 
 Efekt
-```
+Jest efekt i to widoczny bardzo dobrze gołym okiem.
 ```
 
 Statyczna konfiguracja parametrów połączenia
