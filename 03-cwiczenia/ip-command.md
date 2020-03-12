@@ -10,11 +10,6 @@
     * wyczyść adresy
 * routing
     * pobierz trasę dla adresu
-    * dodaj trasę default
-    * dodaj trasę przez bramę
-    * dodaj trasę przez interfejs
-    * usuń trasę
-    * zmień trasę
     
 * adresacja fizyczna
     * pokaż adresy interfejsów dostępnych w sieci
