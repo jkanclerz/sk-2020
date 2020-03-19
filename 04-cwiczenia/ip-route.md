@@ -47,3 +47,5 @@
 2. Dodaj kolejną sieć do komputera pełniącego funkcję routera
    * Sprawdź poprawność komunikacji pomiędzy innymi obszarami sieci
    * Zweryfikuj działanie programu chat pomiędzy różnymi segmentami sieci
+
+![zadanie 4](todo.svg)
