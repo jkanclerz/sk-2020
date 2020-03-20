@@ -50,10 +50,10 @@
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
 | Adres IP      | 10.0.2.15 | przydzielony przez DHCP |
-| Maska podsieci| 10.0.2.15/24 | 255.255.255.0        |
+| Maska podsieci| 10.0.2.15/**24** | **255.255.255.0**    |
 | Brama         | 10.0.2.2     | default from route table |
-| DNS 1         | 10.10.0.8 |  |
-| DNS 2         | 10.10.0.4 |  |
+| DNS 1         | 10.10.4.204  | cat /etc/resolv.conf     |
+| DNS 2         | 1.1.1.1.     | nslookup uek.krakow.pl   |
 
 ### Schemat sieci
 
