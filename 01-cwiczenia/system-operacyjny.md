@@ -26,7 +26,7 @@
   
     Przygotuj dokumentację graficzną Twojej sieci domowej, uwzględnij adresy i urządzenia
 
-3. Zarejestruj konto w CISCO Academy celem pobrania Packet tracer
+3. Zarejestruj konto w CISCO Academy celem pobrania Packet tracer 
    https://www.netacad.com/courses/packet-tracer
 
 4. Dlaczego umiejętnosci z zakresu sieci komputerowych mogą mi się przydać? :)
@@ -41,19 +41,19 @@
 | program (parametry sieci) | niewiem               |                           |
 | ....                      | .....                 |                           |
 | nazwa                     | Alpine Linux          |                           |
-| Konfiguracja ip           | ``$ ip all ``         | show all eth interfaces   |
-| Tablica routingu          | ``$ ip route show ``  | what is gateway?!         |
-| check nameservers (DNS)   | ``$ cat /etc/resolv.conf ``  | which DNS were set |
+| Konfiguracja ip           | ``$ ip all ``         | show all eth interfaces   | 
+| Tablica routingu          | ``$ ip route show ``  | what is gateway?!         | 
+| check nameservers (DNS)   | ``$ cat /etc/resolv.conf ``  | which DNS were set | 
 
 ### Konfiguracja połączenia sieciowego
 
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| Adres IP      | 10.0.2.15 | przydzielony przez DHCP |
+| Adres IP      | 10.0.2.15        | przydzielony przez DHCP |
 | Maska podsieci| 10.0.2.15/**24** | **255.255.255.0**    |
-| Brama         | 10.0.2.2     | default from route table |
-| DNS 1         | 10.10.4.204  | cat /etc/resolv.conf     |
-| DNS 2         | 1.1.1.1.     | nslookup uek.krakow.pl   |
+| Brama         | 10.0.2.2         | default from route table |
+| DNS 1         | 10.10.4.204      | cat /etc/resolv.conf     |
+| DNS 2         | 1.1.1.1          | nslookup uek.krakow.pl   |
 
 ### Schemat sieci
 
