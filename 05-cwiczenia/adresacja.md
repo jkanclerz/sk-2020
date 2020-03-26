@@ -143,7 +143,10 @@ Mając dany adres hosta i maskę znajdź:
     
 ## Wizualizacja
 
-    ![krakow siec akademicka](ceacow-core.jpeg)
+![krakow siec akademicka](ceacow-core.jpeg)
+
+
+## Materiały
 
     * http://www.cyfronet.krakow.pl/sieci/13152,artykul,charakterystyka_sieci.html
     * https://www.computerworld.pl/news/Sieci-szkieletowe-polskich-operatorow,394360.html
