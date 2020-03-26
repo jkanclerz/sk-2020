@@ -143,7 +143,7 @@ Mając dany adres hosta i maskę znajdź:
     
 ## Wizualizacja
 
-![krakow siec akademicka](ceacow-core.jpeg)
+![krakow siec akademicka](cracow-core.jpeg)
 
 
 ## Materiały
