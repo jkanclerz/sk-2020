@@ -23,11 +23,11 @@ Oraz referencyjną wersję kalkulatora IP z wykorzystaniem excel
 ## Zagadnienia
 
 1. [System operacyjny w środowisku sieciowym](01-cwiczenia/system-operacyjny.md)
-2. [Ustawianie parametrów sieci]
-3. [Sieć, komunikacja klient - serwer]
-4. [Tablice routingu]
-5. [Sieć, podsieć, nadsieć]
-6. [Adresacja IP]
+2. [Ustawianie parametrów sieci] (02-cwiczenia/network-properties.md)
+3. [Sieć, komunikacja klient - serwer] (03-cwiczenia/ip-command.md)
+4. [Tablice routingu] (04-cwiczenia/ip-route.md)
+5. [Adresacja IP]
+6. [Sieć, podsieć, nadsieć]
 7. [NAT, dhcp]
 8. [dhcp, dns]
 9. [Analiza ruchu sieciowego - wireshark]
