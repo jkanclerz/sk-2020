@@ -26,10 +26,10 @@ routing
 | ```` |  | enp0s8 |
 | mozna dzielic   |  |  |
 | ````  |  | enp0s8  |
-| ```` |  | enp0s8  ``ip route add 192.168.0.128/27 via 192.168.200.98`` |
-| ```` |  | enp0s8 ``ip route add 192.168.0.192/27 via 192.168.200.98`` |
+| ```` |  | enp0s8  ```` |
+| ```` |  | enp0s8 ```` |
 | lub za 1 iteracją   |  |  |
-| ````   |  | enp0s8 ``ip route add 192.168.0.0/16 via 192.168.200.98``|
+| ````   |  | enp0s8 ````|
 | ``PC-R-2``  |  |        |
 | ```` |  | enp0s3 |
 | ```` |  | enp0s3 ```` |
