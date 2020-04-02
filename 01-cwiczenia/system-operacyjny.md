@@ -30,6 +30,7 @@
    https://www.netacad.com/courses/packet-tracer
 
 4. Dlaczego umiejętnosci z zakresu sieci komputerowych mogą mi się przydać? :)
+
 W dobie dzisiejszej zaawansowanej technologii oraz coraz większej ilości świadomych użytkowników sieci uważam, że najbardziej mogą mi się przydać umiejętności z zakresu bezpieczeństwa . Poznanie realnych zagrożeń bardziej szczegółowo oraz niebanalnych sposobów zapobiegania im pomoże w łatwy sposób przeciwdziałać ewentualnym atakom i sprawi, że codzienna praca stanie się bardziej komfortowa.
 
 
