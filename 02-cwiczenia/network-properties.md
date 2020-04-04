@@ -50,7 +50,7 @@ PC2: ping 10.0.15.4
 
 Efekt
 ```
-[network]: ./1.png
+![alt text][1.png]
 ```
 
 Statyczna konfiguracja parametrów połączenia
