@@ -49,9 +49,8 @@ PC2: ping 10.0.15.4
 ```
 
 Efekt
-```
 ![alt text][1.png]
-```
+
 
 Statyczna konfiguracja parametrów połączenia
 Wejściowe parametry sieci
