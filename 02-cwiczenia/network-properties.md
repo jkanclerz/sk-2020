@@ -49,9 +49,9 @@ PC2: ping 10.0.15.4
 ```
 
 Efekt
-```
+
 ![my network](conf1.png)
-```
+
 
 Statyczna konfiguracja parametrów połączenia
 Wejściowe parametry sieci
@@ -79,9 +79,9 @@ PC2: ping 192.168.10.10
 ```
 
 Efekt
-```
+
 ![my network](conf2.png)
-```
+
 
 Nowa statyczna konfiguracja 
 
@@ -105,9 +105,9 @@ PC2: ping 10.0.15.4
 ```
 
 Efekt
-```
+
 ![my network](conf3.png)
-```
+
 
 ### Utrwalenie konfiguracji
 
