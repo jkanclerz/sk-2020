@@ -49,7 +49,7 @@ PC2: ping 10.0.15.4
 ```
 
 Efekt
-[1]: ./1.png
+![my network](conf1.png)
 
 
 Statyczna konfiguracja parametrów połączenia
