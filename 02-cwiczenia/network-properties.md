@@ -33,11 +33,11 @@ Wejściowe parametry sieci
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
-| IP - address  | 10.0.15.4 | |
+| IP - address  | 10.0.15.4 |ip addr add 10.0.15.4 dev eth0 |
 | MASKA  | /24 (255.255.255.0) | |
 |   |  | |
 | PC 2  |  | |
-| IP - address  | 10.0.15.6 | |
+| IP - address  | 10.0.15.6 | ip addr del 10.0.15.6 dev eth0 |
 | MASKA  | /24 (255.255.255.0 )| |
 
 Weryfikacja połączenia
@@ -50,7 +50,7 @@ PC2: ping 10.0.15.4
 
 Efekt
 ```
-![my network](1.png)
+[network]: ./1.png
 ```
 
 Statyczna konfiguracja parametrów połączenia
@@ -60,14 +60,14 @@ Wejściowe parametry sieci
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
 | IP - address  | 192.168.10.10 | |
-| MASKA  | 255.255.255.0 | |
+| MASKA  | 255.255.255.0 |/24 |
 |   |  | |
 | PC 2  |  | |
 | IP - address  | 192.168.10.11 | |
-| MASKA  | 255.255.128.0 | |
+| MASKA  | 255.255.128.0 |/17 |
 | PC 2  |  | |
 | IP - address  | 172.16.100.100 | |
-| MASKA  | 255.255.0.0 | |
+| MASKA  | 255.255.0.0 |/16 |
 
 Weryfikacja połączenia
 
@@ -80,7 +80,7 @@ PC2: ping 192.168.10.10
 
 Efekt
 ```
-![my network](2.png)
+[network]: ./2.png
 ```
 
 Nowa statyczna konfiguracja 
@@ -90,11 +90,11 @@ Nowa statyczna konfiguracja
 | ------------- |:-------------:| -----:|
 |   PC 1 |  
 | IP - address  | 10.0.15.4 | |
-| MASKA  | 255.255.255.0 | |
+| MASKA  | 255.255.255.0 |/24 |
 |   |  | |
 | PC 2  |  | |
 | IP - address  | 10.0.16.6 | |
-| MASKA  | 255.255.0.0 | |
+| MASKA  | 255.255.0.0 |/16 |
 
 Weryfikacja połączenia
 
@@ -106,16 +106,19 @@ PC2: ping 10.0.15.4
 
 Efekt
 ```
-![my network](3.png)
+[network]: ./3.png
 ```
 
 ### Utrwalenie konfiguracji
 
 Dlaczego? Jak? Co? :)
+
 /etc/network/interfaces
 
 auto eth0
+
 iface eth0 inet static(dhcp)
+
   address 192.168.10.11
   netmask 255.255.255.0
   hostname localhost
