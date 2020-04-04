@@ -48,7 +48,7 @@ PC1: ping 10.0.15.6
 PC2: ping 10.0.15.4
 ```
 
-Efekt
+Efekt - działa
 
 ![my network](conf1.png)
 
@@ -78,7 +78,7 @@ PC1: ping 172.16.100.100
 PC2: ping 192.168.10.10
 ```
 
-Efekt
+Efekt - na 172... nie działa
 
 ![my network](conf2.png)
 
@@ -104,7 +104,7 @@ PC1: ping 10.0.16.6
 PC2: ping 10.0.15.4
 ```
 
-Efekt
+Efekt - nie działa
 
 ![my network](conf3.png)
 
@@ -119,9 +119,11 @@ auto eth0
 
 iface eth0 inet static(dhcp)
 
-  address 192.168.10.11
-  netmask 255.255.255.0
-  hostname localhost
+    address 192.168.10.11
+    
+    netmask 255.255.255.0
+    
+    hostname localhost
 
 ### Warto wiedzieć
 
