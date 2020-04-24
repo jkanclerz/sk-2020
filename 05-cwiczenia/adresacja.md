@@ -30,9 +30,10 @@ Maska -> 255.255.255.11100000 -> 255.255.255.224 -> /27
 
 
 ## Wprowadzenie
-## 
-## | dziesiętnie |  binarnie   | 
-| ``10``  |  | 
+
+| dziesiętnie |  binarnie   | 
+| ----------- | -----------  |
+| ``10``  | | 
 | ``92``  | | 
 | ``37``  | | 
 | ``240`` | | 
@@ -42,7 +43,9 @@ Maska -> 255.255.255.11100000 -> 255.255.255.224 -> /27
 | ``168`` | | 
 
 ## 
-## | binarnie |  dziesiętnie   | 
+
+| binarnie |  dziesiętnie   | 
+| ----------- | -----------  |
 | ``00100000``  |  | 
 | ``11111000``  | | 
 | ``10100000``  | | 
@@ -54,7 +57,8 @@ Maska -> 255.255.255.11100000 -> 255.255.255.224 -> /27
  
 ## Notacja CIDR
 ##  
-## | maska |  /(X) x - liczba bitów   | 
+| maska |  /(X) x - liczba bitów   | 
+| ----------- | -----------  |
 | ``255.255.255.0``   | | 
 | ``255.128.0.0``     | | 
 | ``255.255.252.0``   | | 
@@ -62,7 +66,9 @@ Maska -> 255.255.255.11100000 -> 255.255.255.224 -> /27
 | ``255.255.255.240`` | | 
 | ``255.240.0.0``     | | 
 ## 
-## | CIDR |  Maska   | 
+
+| CIDR |  Maska   | 
+| ----------- | -----------  |
 | ``/8``    | | 
 | ``/20``   | | 
 | ``/30``   | | 
@@ -73,7 +79,8 @@ Maska -> 255.255.255.11100000 -> 255.255.255.224 -> /27
 
 ## Liczba hostów
 ## 
-## | sieć |  liczba   | 
+| sieć |  liczba   | 
+| ----------- | -----------  |
 | ``10.0.0.0/8``    | | 
 | ``172.16.0.0/16``   | | 
 | ``192.168.1.0/24``   | | 
@@ -94,7 +101,8 @@ Mając dany adres hosta i maskę znajdź:
   * adres rozgłoszeniowy
 ##   ## 
 
-## | Parametr |  wartość   | 
+| Parametr |  wartość   | 
+| ----------- | -----------  |
 | ``ip``    | 192.168.1.145| 
 | ``maska``   | 255.255.255.128 | 
 | ``adres sieci``   | |
@@ -107,7 +115,8 @@ Mając dany adres hosta i maskę znajdź:
 
 0. Znajdz wszystkie parametry sieci dla hosta o adresie 172.16.128.64 / 16
 ##   
-## | Parametr |  wartość   | 
+| Parametr |  wartość   | 
+| ----------- | -----------  |
 | ``ip``    | 192.168.1.145| 
 | ``maska``   | 255.255.255.128 | 
 | ``adres sieci``   | |
@@ -117,9 +126,10 @@ Mając dany adres hosta i maskę znajdź:
 | ``broadcast``   | | 
 
 1.
-  * Podziel sieć ```192.168.1.0``` na 16 równych podsieci
+  * Podziel sieć ```192.168.1.0/16``` na 16 równych podsieci
 ##   
-## | Adres sieci |  zakres hostów   | Adres Rozgłoszeniowy |
+| Adres sieci |  zakres hostów   | Adres Rozgłoszeniowy |
+| ----------- | -----------  | ----------- |
 | ``192.168.1.0``    | | |
 | ````   | | |
 | ````   | | |
