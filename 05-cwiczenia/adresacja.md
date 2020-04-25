@@ -161,3 +161,6 @@ Mając dany adres hosta i maskę znajdź:
     * http://www.cyfronet.krakow.pl/sieci/13152,artykul,charakterystyka_sieci.html
     * https://www.computerworld.pl/news/Sieci-szkieletowe-polskich-operatorow,394360.html
     * https://cidr.xyz/
+
+    * Lista polskich puli adresów
+    * http://42.pl/pl/networks.html?html=1
