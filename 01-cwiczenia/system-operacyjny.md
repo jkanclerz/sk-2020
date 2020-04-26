@@ -18,7 +18,7 @@
    * Windows 
 
 2. Sprawdź oraz przygotuj charakterystykę dla przykładowego urządzenia w Twojej sieci domowej
-   * Adres
+   * Adres  
    * Maska
    * Adres bramy
    * DNS 1
