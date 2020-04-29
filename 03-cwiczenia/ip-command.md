@@ -24,19 +24,19 @@
 |               |   ``ip addr``                 | informacja o wszystkich interfejsach              |
 |               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
 |   ``link``    |                               |  |
-|               | ``ip link`` | ``wyświetl informacje o interfejsach`` | 
-|               | ``ip link show dev eth0`` | ``wyświetl informacje o konkretnym interfejsie`` | 
-|   ``route``   |  | ``wyświetl tablice routingu``|
+|               | ``ip link`` | ``wyświetla informacje o interfejsach`` | 
+|               | ``ip link show dev eth0`` | ``wyświetla informacje o konkretnym interfejsie`` | 
+|   ``route``   |  | ``wyświetla tablice routingu``|
 |               | ``ip route`` | ``dodaj/usuń zawartość w tablicy routingu``  |
-|   ``maddr``   |  | ``Wyświetla adresy IP multicast`` | 
-|               | ``ip maddr`` | ``informacje o multicast dla wszystkich urządzeń``|
-|               | ``ip maddr show dev eth0`` | ``informacje o multicast dla danego interfejsu`` | 
+|   ``maddr``   |  | ``wyświetla adresy IP multicast`` | 
+|               | ``ip maddr`` | ``wyświetla informacje o multicast dla wszystkich urządzeń``|
+|               | ``ip maddr show dev eth0`` | ``wyświetla informacje o multicast dla danego interfejsu`` | 
 |   ``neigh``   |  | ``tablica ARP dla IPv4``|
 |               | ``ip neigh`` | ``wyświetla tablicę sąsiędztwa``|
 |               |  ``ip neigh show dev eth0``| ``wyświetla cache dla danego interfejsu``|
 |   ``help``    |    | ``wyświetla listę z komendami i argumentami dla każdego subcommand`` | 
 |               | ``ip help`` | | 
-|               | ''ip addr help'' | |
+|               | ``ip addr help`` | |
 
 
 ### Zadanie
