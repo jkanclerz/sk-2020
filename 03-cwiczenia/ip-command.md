@@ -18,17 +18,25 @@
 
 
 ### ip 
-
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
-|   ``addr``    |                               | infirmacje o adresacji i własnościach interfejsów |
+|   ``addr``    |                               | informacje o adresacji i własnościach interfejsów |
 |               |   ``ip addr``                 | informacja o wszystkich interfejsach              |
 |               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
 |   ``link``    |                               |  |
-|   ``route``   |  | |
-|   ``maddr``   |  | |
-|   ``neigh``   |  | |
-|   ``help``    |  | |
+|               | ``ip link`` | ``wyświetl informacje o interfejsach`` | 
+|               | ``ip link show dev eth0`` | ``wyświetl informacje o konkretnym interfejsie`` | 
+|   ``route``   |  | ``wyświetl tablice routingu``|
+|               | ``ip route`` | ``dodaj/usuń zawartość w tablicy routingu``  |
+|   ``maddr``   |  | ``Wyświetla adresy IP multicast`` | 
+|               | ``ip maddr`` | ``informacje o multicast dla wszystkich urządzeń``|
+|               | ``ip maddr show dev eth0`` | ``informacje o multicast dla danego interfejsu`` | 
+|   ``neigh``   |  | ``tablica ARP dla IPv4|
+|               | ``ip neigh`` | ``wyświetla tablicę sąsiędztwa``|
+|               |  ``ip neigh show dev eth0``| ``wyświetla cache dla danego interfejsu``|
+|   ``help``    |    | ``wyświetla listę z komendami i argumentami dla każdego subcommand`` | 
+|               | ``ip help`` | | 
+|               | ''ip addr help'' | |
 
 
 ### Zadanie
