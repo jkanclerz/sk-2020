@@ -29,12 +29,10 @@ Wejściowe parametry sieci
 Weryfikacja połączenia
 
 Polecenie
-```
-```
+`` ping 10.0.15.4`` ``ping 10.0.15.6``
 
 Efekt
-```
-```
+``Uzyskanie potwierdzenia czy mozna spingowac dany adres - jesli tak, to dostajemy informacje o czasie potrzebnym na wykonanie danego pingu``
 
 Statyczna konfiguracja parametrów połączenia
 Wejściowe parametry sieci
