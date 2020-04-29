@@ -31,7 +31,7 @@
 |   ``maddr``   |  | ``Wyświetla adresy IP multicast`` | 
 |               | ``ip maddr`` | ``informacje o multicast dla wszystkich urządzeń``|
 |               | ``ip maddr show dev eth0`` | ``informacje o multicast dla danego interfejsu`` | 
-|   ``neigh``   |  | ``tablica ARP dla IPv4|
+|   ``neigh``   |  | ``tablica ARP dla IPv4``|
 |               | ``ip neigh`` | ``wyświetla tablicę sąsiędztwa``|
 |               |  ``ip neigh show dev eth0``| ``wyświetla cache dla danego interfejsu``|
 |   ``help``    |    | ``wyświetla listę z komendami i argumentami dla każdego subcommand`` | 
