@@ -101,7 +101,7 @@ Mając dany adres hosta i maskę znajdź:
   * adres rozgłoszeniowy
 ##   ## 
 
-| Parametr |  wartość   | 
+| Parametr |  Wartość   | 
 | ----------- | -----------  |
 | ``ip``    | 192.168.1.145| 
 | ``maska``   | 255.255.255.128 | 
@@ -128,7 +128,7 @@ Mając dany adres hosta i maskę znajdź:
 1.
   * Podziel sieć ```192.168.1.0/16``` na 16 równych podsieci
 ##   
-| Adres sieci |  zakres hostów   | Adres Rozgłoszeniowy |
+| Adres sieci |  Zakres hostów   | Adres Rozgłoszeniowy |
 | ----------- | -----------  | ----------- |
 | ``192.168.0.0``    | ``192.168.0.1 - 192.168.15.254`` | ``192.168.15.255``|
 | ``192.168.16.0``   | ``192.168.16.1 - 192.168.31.254`` | ``192.168.31.255``|
@@ -152,6 +152,8 @@ Mając dany adres hosta i maskę znajdź:
 2. 
   * Podziel sieć ``172.16.0.0/16`` na 6 równych podsieci.
   ##
+  | Adres sieci |  Zakres hostów   | Adres Rozgłoszeniowy |
+| ----------- | -----------  | ----------- |
   | ``172.16.0.0`` | ``172.16.0.1 - 172.16.31.254`` | ``172.16.31.255`` | 
   |``172.16.32.0`` | ``172.16.32.1 - 172.16.63.254`` | ``172.16.63.255`` | 
   | ``172.16.64.0`` | ``172.16.64.1 - 172.16.95.254`` | ``172.16.95.255``| 
@@ -162,6 +164,8 @@ Mając dany adres hosta i maskę znajdź:
 3.
 ##
   * Podziel sieć ``192.168.1.0/24``, tak aby każda podsieć miała 11 użytkowników.
+  | Adres sieci |  Zakres hostów   | Adres Rozgłoszeniowy |
+| ----------- | -----------  | ----------- |
   | ``192.168.1.0`` | ``192.168.1.1 - 192.168.1.14`` | ``192.168.1.15``| 
   | ``192.168.1.16`` | ``192.168.1.17 - 192.168.1.30`` | ``192.168.1.31``| 
   |``192.168.1.32`` | ``192.168.1.33 - 192.168.1.46`` | ``192.168.1.47`` | 
@@ -187,6 +191,8 @@ Mając dany adres hosta i maskę znajdź:
     * D – 500 użytkowników
     * E – 2 użytkowników.
     ##
+    | Adres sieci |  Zakres hostów   | Adres Rozgłoszeniowy |
+| ----------- | -----------  | ----------- |
     | ``10.0.0.0`` | ``10.0.0.1 - 10.1.255.254``| ``10.1.255.255``|
     | ``10.2.0.0`` | ``10.2.0.1 - 10.2.63.254`` | ``10.2.63.255``|
     | ``10.2.64.0`` | ``10.2.64.1 - 10.2.79.254`` | ``10.2.79.255``|
