@@ -12,7 +12,7 @@
 ### ip 
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
-|   ``route``    |   ``ip route``    | wyswietla tablice routingu |
+|   ``route``    |   ``ip route``    | ``wyswietla tablice routingu`` |
 |       ``route add``        |   ``ip route add`` | ``ustaw statystyczny routing`` |
 
 
