@@ -90,10 +90,10 @@ Dlaczego? Jak? Co? :)
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| ``/etc/network/interfaces``| |
-| UP -> Wyłączenie interfejsu sieciowego| ``ip link set eth1 down	``| |
-| DOWN -> Włączenie interfejsu sieciowego| ``ip link set eth1 up``| |
-| Sprawdzenie obecnych parametrów | ``ip addr show eth0`` | |
-| lista wszystkich interfejsów | ``ip addr``| |
-| Które interfejsy jakie porty słuchają |``netstat`` | |
+| Lokalizacja pliku z konfiguracją sieci| ``/etc/network/interfaces``| ``-``|
+| UP -> Wyłączenie interfejsu sieciowego| ``ip link set eth1 down	``| ``-``|
+| DOWN -> Włączenie interfejsu sieciowego| ``ip link set eth1 up``| ``-``|
+| Sprawdzenie obecnych parametrów | ``ip addr show eth0`` | ``-`` |
+| lista wszystkich interfejsów | ``ip addr``| ``-``|
+| Które interfejsy jakie porty słuchają |``netstat`` | ``-``|
 
