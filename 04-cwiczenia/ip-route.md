@@ -33,8 +33,11 @@
    * Przetestuj połączenie pomiędzy wszystkimi elementami sieci
    * Dlaczego połączenie może nie działać - bo w pliku /proc/sys/net/ipv4/ip_forward musi być wpisana wartość 1
    
+   KOMUNIKACJA PC1<->ROUTER
  ![z1](z1.png) 
+   KOMUNIKACJA PC2<->ROUTER
  ![z2](z2.png)
+   KOMUNIKACJA PC1<->PC2
  ![z3](z3.png)
  ![z4](z4.png)
  
