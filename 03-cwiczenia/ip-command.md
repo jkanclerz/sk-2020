@@ -54,6 +54,9 @@
 2.
    * Zainstaluj na komputerze ``PC0`` serwer ``HTTP`` np. ``nginx`` 
    * skonfiguruj program ``nginx`` tak aby wyświetlał zawartość katalogu ``/var/www``
+   
+   ![z5](z5.png)
+   
    * przeładuj konfigurację
    * utwórz własny plik ``index.html`` zawierający tekst
    * Przetestuj komunikację z ``localhost``  wykorzystując konsolowego klienta ``HTTP``, program ``curl``
