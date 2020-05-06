@@ -4,11 +4,11 @@
 
 
 1. Z wykorzystaniem maszyny wirtualnej, zainstaluj SO oraz wypisz parametry konfiguracji IP tj:
-   * Adres
-   * Maska
-   * Adres bramy
-   * DNS 1
-   * DNS 2
+   * Adres 10.0.2.15
+   * Maska 255.255.255.0
+   * Adres bramy 10.0.2.2
+   * DNS 1 10.10.4.204
+   * DNS 2 1.1.1.1
     
     Powyższe parametry uzyskaj na wszystkich z wymienionych systemów
 
@@ -18,11 +18,11 @@
    * Windows 
 
 2. Sprawdź oraz przygotuj charakterystykę dla przykładowego urządzenia w Twojej sieci domowej
-   * Adres
-   * Maska
-   * Adres bramy
-   * DNS 1
-   * DNS 2
+   * Adres 192.168.55.22
+   * Maska 255.255.255.0/24
+   * Adres bramy 192.168.55.1
+   * DNS 1 8.8.8.8
+   * DNS 2 8.8.4.4
   
     Przygotuj dokumentację graficzną Twojej sieci domowej, uwzględnij adresy i urządzenia
 
@@ -65,5 +65,5 @@ aby załączyć obrazek
 ![alt schemat](images/my-network-schema.png)
 ```
 
-![my network](network.png)
+![my network](diagram_sieci.png)
 
