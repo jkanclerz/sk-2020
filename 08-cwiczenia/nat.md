@@ -1,5 +1,11 @@
 # NAT - Network address translation
 
+## Symulacja
+
+![zadanie 7](network.svg)
+
+W którym miejscu następuje zmaina adresu prywatnego na publiczny?
+
 ## Zadanie
 
 ![zadanie 7](nat-1.svg)
@@ -33,4 +39,5 @@
   
 ## Materiały
 
+* https://tools.ietf.org/html/rfc1918
 * https://linux.die.net/man/8/iptables

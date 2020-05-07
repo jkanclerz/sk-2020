@@ -30,7 +30,7 @@ Oraz referencyjną wersję kalkulatora IP z wykorzystaniem excel
 6. [Sieć, podsieć, nadsieć](06-cwiczenia/ip-podsiec-nadsiec.md)
 7. [DHCP](07-cwiczenia/dhcp.md)
 8. [NAT](08-cwiczenia/nat.md)
-9. [DHCP, DNS]
+9. [DNS]
 10. [Analiza ruchu sieciowego - wireshark]
     * TCP
     * UDP
