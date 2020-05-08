@@ -42,7 +42,7 @@
 |   		| ``ip neigh show dev enp0s3``  | informacja o adresie ARP konkretnego interfejsu   |
 |		| ``ip neigh add 10.0.0.1 lladdr 4:2:0:6:9:0 dev enp0s3`` | dodanie adresu IP wraz adresem MAC do tabeli ARP |
 | 		| ``ip neigh del 10.0.0.1 dev enp0s3`` | dewalidacja adresu IP z tablicy ARP  	   |
-|		| ``ip neigh replace 10.0.0.1 laddr 4:2:0:6:9:0 dev enp0s3 | zmiana rejestru ARP   |
+|		| ``ip neigh replace 10.0.0.1 laddr 4:2:0:6:9:0 dev enp0s3`` | zmiana rejestru ARP   |
 |   ``help``    |  ``ip help``                  | informacja o pomocy                               |
 
 
