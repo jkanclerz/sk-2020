@@ -1,19 +1,19 @@
 ## Zarządzanie interfejsami z wykorzystamiem programu IP
 
 * stan interfejsu
-    * interfejs up
-    * interfejs down
+    * interfejs up - Interface włączony
+    * interfejs down - Interface wyłączony
 * adresacja
-    * dodaj adres
-    * zmień adres
-    * usuń adres
-    * wyczyść adresy
+    * dodaj adres - ip addr add <adres>/<maska podsieci> dev <interface>
+    * zmień adres - ip link set
+    * usuń adres - ip addr del
+    * wyczyść adresy - ip addr flush
 * routing
-    * pobierz trasę dla adresu
+    * pobierz trasę dla adresu - ip route show
     
 * adresacja fizyczna
-    * pokaż adresy interfejsów dostępnych w sieci
-    * pokaż adresy dla konkretnego interfejsu
+    * pokaż adresy interfejsów dostępnych w sieci - ifconfig -a
+    * pokaż adresy dla konkretnego interfejsu - ifconfig <nazwa interface'u?>
      
 
 
@@ -21,14 +21,29 @@
 
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
-|   ``addr``    |                               | infirmacje o adresacji i własnościach interfejsów |
+|   ``addr``    |   ``                            | infirmacje o adresacji i własnościach interfejsów |
 |               |   ``ip addr``                 | informacja o wszystkich interfejsach              |
 |               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
-|   ``link``    |                               |  |
-|   ``route``   |  | |
-|   ``maddr``   |  | |
-|   ``neigh``   |  | |
-|   ``help``    |  | |
+|               |   ``ip addr add 10.0.0.1 dev enp0s3`` | dodanie adresu ip do konkretnego interfejsu |
+|		|  ``ip addr del 10.0.0.1 dev enp0s3`` | usunięcie adresu ip z konkretnego interfejsu |
+|   ``link``    |   ``ip link show``                      | informacja o stanie wszystkich interfejsów  |
+|   		| ``ip link show dev enp0s3``   | informacja o stanie konkretnego interfejsu |
+|		| ``ip link set``      		| zmiana stanu interfejsu |
+|   ``route``   |  `` ip route``                | informacja o stanie tabeli routingu               |
+|   		| ``ip route add``		| dodaje trasę do tablicy routingu 		    |
+|		| ``ip route delete``		| usuwa trasę z tablicy routingu		    |
+|		| ``ip route replace`` 		| zamienia lub dodaje trasę do tablicy routingu	    |
+|		| ``ip route get 10.0.0.1 ``	| pokazuje trasę jaką pokona adres ip  		    |
+|   ``maddr``   |  ``ip maddr``                 | informacja o adresach multicast                   |
+|   		| ``ip maddr show dev enp0s3``  | informacja o adresie multicast konkretnego interfejsu|
+|		| ``ip maddr add 192.168.1.255``| dodanie adresu mulicast do konkretnego interfejsu|
+|		| ``ip maddr del 192.168.1.255``| usunięcie adresu multicast z konkretnego interfejsu|
+|   ``neigh``   |  ``ip neigh``                 | informacja o adresach ARP                         |
+|   		| ``ip neigh show dev enp0s3``  | informacja o adresie ARP konkretnego interfejsu   |
+|		| ``ip neigh add 10.0.0.1 lladdr 4:2:0:6:9:0 dev enp0s3`` | dodanie adresu IP wraz adresem MAC do tabeli ARP |
+| 		| ``ip neigh del 10.0.0.1 dev enp0s3`` | dewalidacja adresu IP z tablicy ARP  	   |
+|		| ``ip neigh replace 10.0.0.1 laddr 4:2:0:6:9:0 dev enp0s3 | zmiana rejestru ARP   |
+|   ``help``    |  ``ip help``                  | informacja o pomocy                               |
 
 
 ### Zadanie
