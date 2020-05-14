@@ -19,7 +19,6 @@
    * Skonfiguruj serwer ``DHCP`` dla ``PC0`` tak aby wszystkie nowo przyłączone urządzenia uzyskały właściwą konfigurację ``ip`` 
   
 
-      -------------------------
       | klucz    |  wartość   |
       | ------------- |:-------------|  
       |   ``ip``   |   ``10.192.192.0 - 10.192.200.0``  |
