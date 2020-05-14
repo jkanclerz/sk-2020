@@ -1,5 +1,4 @@
-DNS - Domain name server
-------------------------
+## DNS - Domain name server
 
   * http://www.thekelleys.org.uk/dnsmasq/doc.html
   * https://www.isc.org/downloads/bind/
@@ -9,8 +8,7 @@ DNS - Domain name server
   
   ![dns query](dns-query.svg)
 
-Zadanie
-------------
+## Zadanie
 
 ![zadanie 9](dns.svg)
 
@@ -18,8 +16,9 @@ Zadanie
    * Przygotuj konfigurację sieci zgodnie z powyższym diagramem
    * Zweryfikuj poprawność połączenia z siecią internet dla ``PC0``
       * adresacja
-   * Skonfiguruj serwer ``DHCP`` dla ``PC0`` tak aby wszystkie nowo przyłączone urządzenia uzyskały właściwą konfigurację
-      ``ip`` 
+   * Skonfiguruj serwer ``DHCP`` dla ``PC0`` tak aby wszystkie nowo przyłączone urządzenia uzyskały właściwą konfigurację ``ip`` 
+  
+
       -------------------------
       | klucz    |  wartość   |
       | ------------- |:-------------|  
@@ -37,9 +36,7 @@ Zadanie
  
    
 
-Przydatne polecenia
--------------------
-
+## Przydatne polecenia
 
 | komenda    |  przykład   | opis  |
 | ------------- |:-------------| :---------------| 
@@ -48,9 +45,13 @@ Przydatne polecenia
 |   ``dig``         | ``dig uek.krakow.pl``      | kwerenda do serwera dns |
 |                   |                            | wyczyść lokalny cache dns |   
 
+## extra
 
-Zadanie do domu
----------------
+Adblock via DNS !!
+   * dnsmasq - To juz mamy!
+   * bierząca lista trackerów i reklamodawców https://github.com/notracking/hosts-blocklists
+
+## Zadanie do domu
 
 1. Przygotuj system z trybem graficznym, oraz zainstalowanym programem 
 ``wireshark`` https://www.wireshark.org
