@@ -3,6 +3,7 @@
   * https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/security_guide/sect-security_guide-iptables
   * https://linux.die.net/man/8/iptables
   * https://wiki.alpinelinux.org/wiki/Configure_Networking
+  * http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch14_:_Linux_Firewalls_Using_iptables#.Xs9qQRMzZTY
 
 ## iptables
 
