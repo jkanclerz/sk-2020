@@ -31,8 +31,8 @@ Oraz referencyjną wersję kalkulatora IP z wykorzystaniem excel
 7. [DHCP](07-cwiczenia/dhcp.md)
 8. [NAT](08-cwiczenia/nat.md)
 9. [DNS](09-cwiczenia/dhcp-dns.md)
-10. [Analiza ruchu sieciowego - wireshark]
+10. [Analiza ruchu sieciowego - wireshark](10-cwiczenia/wireshark.md)
     * TCP
     * UDP
-11. [Firewall - iptables]
+11. [Firewall - iptables](11-cwiczenia/firewall.md)
 
