@@ -24,3 +24,8 @@ Projekt sieci spełnił oczekiwania, organizacja po uwzględnieniu nowych wymog�
  * Adresację linków pomiędzy routerami
  * Tablice routingów na poszczególnych routerach
  
+ 
+# MODYFIKACJA!
+ podsieć 1 ma obsłużyć do **512** hostów
+ powinno być **510**
+ 
