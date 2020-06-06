@@ -12,9 +12,11 @@
 ### ip 
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
-|   ``route``    |                               | |
-|               |   ``ip route add``             | |
-
+|   ``route``   |  `` ip route``                | informacja o stanie tabeli routingu               |
+|   		| ``ip route add``		| dodaje trasę do tablicy routingu 		    |
+|		| ``ip route delete``		| usuwa trasę z tablicy routingu		    |
+|		| ``ip route replace`` 		| zamienia lub dodaje trasę do tablicy routingu	    |
+|		| ``ip route get 10.0.0.1 ``	| pokazuje trasę jaką pokona adres ip  		    |
 
 ### Zastosowania
 
