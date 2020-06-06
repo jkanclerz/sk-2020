@@ -9,15 +9,19 @@
 ### Jak policzyć?
 #### Adres sieci
 
-1. 
-2.
-3.
+1. Rozpisz adres IP oraz maskę podsieci na zapis binarny
+```192.168.100.192 = 11000000.10101000.01100100.11000000```
+```255.255.255.0  =  11111111.11111111.11111111.00000000```
+2. Wykonaj na pozyższych oktetach operację binarną AND
+3. ???
+4. Przekonwertuj spowrotem na dziesiętny
 
 #### Adres rozgłoszeniowy
 
-1. 
-2.
-3.
+1. Weź binarny adress sieci oraz binarną maskę podsieci 
+2. Zaneguj binarnie podsieci (NOT)
+3. Wykonaj operację binarną OR
+4. Przekonwertuj spowrotem na system dziesiętny
 
 
 ## Podział na równą ilość podsieci
