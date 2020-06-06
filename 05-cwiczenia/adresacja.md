@@ -11,7 +11,7 @@
 
 1. Rozpisz adres IP oraz maskę podsieci na zapis binarny  
 
-```192.168.100.192 = 11000000.10101000.01100100.11000000```
+```192.168.100.192 = 11000000.10101000.01100100.11000000```  
 ```255.255.255.0  =  11111111.11111111.11111111.00000000```
 
 2. Wykonaj na pozyższych oktetach operację binarną AND
