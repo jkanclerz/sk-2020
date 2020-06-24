@@ -101,3 +101,4 @@ C       192.168.3.0 is directly connected, Serial0/3/0
 ### Schemat sieci
 
 
+![Schemat](Zad1.png)
