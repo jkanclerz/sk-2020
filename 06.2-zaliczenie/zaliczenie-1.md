@@ -48,9 +48,9 @@ Interfejsy WIC-2T zostały połączone ze sobą kablem Serial DCE, tak aby każd
 Każdy interface routera był konfigurowany za pomocą Cisco CLI, a dokładnie komendami:  
 
 ```> enable``` -- wejście w tryb uprzywilejowany  
-```# config terminal``` -- wejście w tryb konfiguracji
-```(config)# interface Serial X/X/X``` -- konfiguracja interfejsu 
+```# config terminal``` -- wejście w tryb konfiguracji  
+```(config)# interface Serial X/X/X``` -- konfiguracja interfejsu  
 ```(config-if)# ip address <ip <maska>``` -- nadanie adresu IP  
-```(config-if)# clock rate 64000``` -- ustalenie częstotliwości zegara DCE (Tylko dla stron z clockiem)
-```(config-if)# no shutdown``` -- włączenie interfejsu
-```# copy running-config startup-config``` -- ważna komenda zapisująca obecne ustawienia do ustawień ogólnych
+```(config-if)# clock rate 64000``` -- ustalenie częstotliwości zegara DCE (Tylko dla stron z clockiem)  
+```(config-if)# no shutdown``` -- włączenie interfejsu  
+```# copy running-config startup-config``` -- ważna komenda zapisująca obecne ustawienia do ustawień ogólnych  
