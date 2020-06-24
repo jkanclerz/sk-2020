@@ -49,8 +49,8 @@ Każdy interface routera był konfigurowany za pomocą Cisco CLI, a dokładnie k
 
 ```> enable``` -- wejście w tryb uprzywilejowany  
 ```# config terminal``` -- wejście w tryb konfiguracji  
-```(config)# interface Serial X/X/X``` -- konfiguracja interfejsu  
+```(config)# interface <nazwa interfejsu> <numer interfejsu>``` -- konfiguracja interfejsu  
 ```(config-if)# ip address <ip <maska>``` -- nadanie adresu IP  
-```(config-if)# clock rate 64000``` -- ustalenie częstotliwości zegara DCE (Tylko dla stron z clockiem)  
+```(config-if)# clock rate 64000``` -- ustalenie częstotliwości zegara DCE (Tylko dla interfejsów serial z clockiem)  
 ```(config-if)# no shutdown``` -- włączenie interfejsu  
-```# copy running-config startup-config``` -- ważna komenda zapisująca obecne ustawienia do ustawień ogólnych  
+```# copy running-config startup-config``` -- ważna komenda zapisująca obecne ustawienia do ustawień ogólnych (Przez jej brak musiałem robić to zdanie dwa razy)
