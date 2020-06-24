@@ -19,9 +19,9 @@ Organizacja planuje rozpoczęcie działalności w 3 budynkach, w każdym z nich 
 
 | Sieć  | Adres Sieci | Host min     | Host max      | Adres rozgłoszeniowy |
 | -------------     |:-------------: | -----:       | -----:        | -----:    |
-| 1         | 10.0.0.0/22 | 10.0.0.1 | 10.0.3.254 | 10.0.3.255 
-| 2         | 10.1.0.0/22 | 10.1.0.1| 10.1.3.254 | |  10.1.3.255
-| 3         | 10.2.0.0/22 | 10.2.0.1| 10.2.3.254 | |  10.2.3.255
+| 1         | 10.0.0.0/22 | 10.0.0.1 | 10.0.3.254 | 10.0.3.255  |
+| 2         | 10.1.0.0/22 | 10.1.0.1| 10.1.3.254 | 10.1.3.255 |  
+| 3         | 10.2.0.0/22 | 10.2.0.1| 10.2.3.254 | 10.2.3.255 |  
 | 4 (Routing) | 192.168.1.0/30 | 192.168.1.1 | 192.168.1.2 | 192.168.1.3 |
 | 5 (Routing) | 192.168.2.0/30 | 192.168.2.1 | 192.168.w.2 | 192.168.2.3 |
 | 6 (Routing) | 192.168.3.0/30 | 192.168.3.1 | 192.168.3.2 | 192.168.3.3 |
@@ -64,10 +64,11 @@ Każdy interface routera był konfigurowany za pomocą Cisco CLI, a dokładnie k
 
 Routing został skonfigurowany w Cisco CLI, na każdym routerze wykonano komendę  
 ```(config)# ip route <adres sieci> <maska sieci> <next hop>```  
-Przykładowo, dla routingu pomiędzy sieciami 10.0.0.0 i 10.1.0.0 byłay to komendy
+Przykładowo, dla routingu pomiędzy sieciami 10.0.0.0 i 10.1.0.0 byłay to komendy  
 
-### Router1 
+### Router 1 
 ```(config)# ip route 10.1.0.0 255.255.252.0 192.168.1.2```  
+### Router 2
 ```(config)# ip route 10.0.0.0 255.255.252.0 192.168.1.1```
 
 ## Tablice routingu (Bezpośrednio z ```# show ip route```)
@@ -75,27 +76,27 @@ Przykładowo, dla routingu pomiędzy sieciami 10.0.0.0 i 10.1.0.0 byłay to kome
 
 ### Router 1
 
-C       10.0.0.0 is directly connected, FastEthernet0/0
-S       10.1.0.0 [1/0] via 192.168.1.2
-S       10.2.0.0 [1/0] via 192.168.3.1
-C       192.168.1.0 is directly connected, Serial0/3/0
-C       192.168.3.0 is directly connected, Serial0/3/1
+C       10.0.0.0 is directly connected, FastEthernet0/0  
+S       10.1.0.0 [1/0] via 192.168.1.2  
+S       10.2.0.0 [1/0] via 192.168.3.1  
+C       192.168.1.0 is directly connected, Serial0/3/0  
+C       192.168.3.0 is directly connected, Serial0/3/1  
 
 ### Router 2
 
-S       10.0.0.0 [1/0] via 192.168.1.1
-C       10.1.0.0 is directly connected, FastEthernet0/0
-S       10.2.0.0 [1/0] via 192.168.2.2
-C       192.168.1.0 is directly connected, Serial0/3/1
-C       192.168.2.0 is directly connected, Serial0/3/0
+S       10.0.0.0 [1/0] via 192.168.1.1  
+C       10.1.0.0 is directly connected, FastEthernet0/0  
+S       10.2.0.0 [1/0] via 192.168.2.2  
+C       192.168.1.0 is directly connected, Serial0/3/1  
+C       192.168.2.0 is directly connected, Serial0/3/0  
 
 ### Router 3
 
-S       10.0.0.0 [1/0] via 192.168.3.2
-S       10.1.0.0 [1/0] via 192.168.2.1
-C       10.2.0.0 is directly connected, FastEthernet0/0
-C       192.168.2.0 is directly connected, Serial0/3/1
-C       192.168.3.0 is directly connected, Serial0/3/0
+S       10.0.0.0 [1/0] via 192.168.3.2  
+S       10.1.0.0 [1/0] via 192.168.2.1  
+C       10.2.0.0 is directly connected, FastEthernet0/0  
+C       192.168.2.0 is directly connected, Serial0/3/1  
+C       192.168.3.0 is directly connected, Serial0/3/0  
 
 ### Schemat sieci
 
