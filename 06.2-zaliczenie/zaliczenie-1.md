@@ -26,19 +26,19 @@ Organizacja planuje rozpoczęcie działalności w 3 budynkach, w każdym z nich 
 | 6 (Routing) | 192.168.3.0/30 | 192.168.3.1 | 192.168.3.2 | 192.168.3.3 |
 
 | Router | Interface | Ip | 
-| ------------- |:-------------:|
+| ------------- | -------------  |:-------------:|
 | Router 1 | Serial 0/3/0 |   192.168.1.1/30 | 
 | Router 1 | Serial 0/3/1  |   192.168.3.2/30 | 
 | Router 1 FastEthernet 0/0  |  10.0.0.1/22 | 
 
 | Router | Interface | Ip | 
-| ------------- |:-------------:|
-|  Router 2 | Serial 0/3/0  |  192.168.2.1 | 
+| ------------- | -------------  |:-------------:|
+|  Router 2 | -------------  | Serial 0/3/0  |  192.168.2.1 | 
 |  Router 2 | Serial 0/3/1  |  192.168.1.2/30 | 
 |  Router 2 | FastEthernet 0/0  |  10.2.0.1/22 | 
 
 | Router | Interface | Ip | 
-| ------------- |:-------------:|
+| ------------- | -------------  |:-------------:|
 |  Router 3 | Serial 0/3/0 |  192.168.3.1/30 | 
 |  Router 3 |Serial 0/3/1  |  192.168.2.2/30 | 
 |  Router 3 | FastEthernet 0/0  |  10.3.0.1/22 | 
