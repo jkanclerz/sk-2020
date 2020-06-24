@@ -58,22 +58,22 @@ Każdy interface routera był konfigurowany za pomocą Cisco CLI, a dokładnie k
 ```(config-if)# no shutdown``` -- włączenie interfejsu  
 ```# copy running-config startup-config``` -- ważna komenda zapisująca obecne ustawienia do ustawień ogólnych (Przez jej brak musiałem robić to zdanie dwa razy)
 
-### Routing
+## Routing
 
-## Konfiguracja Routingu
+### Konfiguracja Routingu
 
 Routing został skonfigurowany w Cisco CLI, na każdym routerze wykonano komendę  
 ```(config)# ip route <adres sieci> <maska sieci> <next hop>```  
 Przykładowo, dla routingu pomiędzy sieciami 10.0.0.0 i 10.1.0.0 byłay to komendy
 
-# Router1 
+### Router1 
 ```(config)# ip route 10.1.0.0 255.255.252.0 192.168.1.2```  
 ```(config)# ip route 10.0.0.0 255.255.252.0 192.168.1.1```
 
 ## Tablice routingu (Bezpośrednio z ```# show ip route```)
 
 
-# Router 1
+### Router 1
 
 C       10.0.0.0 is directly connected, FastEthernet0/0
 S       10.1.0.0 [1/0] via 192.168.1.2
@@ -81,7 +81,7 @@ S       10.2.0.0 [1/0] via 192.168.3.1
 C       192.168.1.0 is directly connected, Serial0/3/0
 C       192.168.3.0 is directly connected, Serial0/3/1
 
-# Router 2
+### Router 2
 
 S       10.0.0.0 [1/0] via 192.168.1.1
 C       10.1.0.0 is directly connected, FastEthernet0/0
@@ -89,7 +89,7 @@ S       10.2.0.0 [1/0] via 192.168.2.2
 C       192.168.1.0 is directly connected, Serial0/3/1
 C       192.168.2.0 is directly connected, Serial0/3/0
 
-# Router 3
+### Router 3
 
 S       10.0.0.0 [1/0] via 192.168.3.2
 S       10.1.0.0 [1/0] via 192.168.2.1
