@@ -31,6 +31,8 @@
 
 4. Dlaczego umiejętnosci z zakresu sieci komputerowych mogą mi się przydać? :)
 
+W dobie dzisiejszej zaawansowanej technologii oraz coraz większej ilości świadomych użytkowników sieci uważam, że najbardziej mogą mi się przydać umiejętności z zakresu bezpieczeństwa . Poznanie realnych zagrożeń bardziej szczegółowo oraz niebanalnych sposobów zapobiegania im pomoże w łatwy sposób przeciwdziałać ewentualnym atakom i sprawi, że codzienna praca stanie się bardziej komfortowa.
+
 
 ### Charakterystyka systemu operacyjnego
 
@@ -45,15 +47,27 @@
 | Tablica routingu          | ``$ ip route show ``  | what is gateway?!         | 
 | check nameservers (DNS)   | ``$ cat /etc/resolv.conf ``  | which DNS were set | 
 
-### Konfiguracja połączenia sieciowego
+### Konfiguracja połączenia sieciowego Alpine/Debian/Windows
 
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
 | Adres IP      | 10.0.2.15        | przydzielony przez DHCP |
-| Maska podsieci| 10.0.2.15/**24** | **255.255.255.0**    |
+| Maska podsieci| 10.0.2.15/**24** | **255.255.255.0**       |
 | Brama         | 10.0.2.2         | default from route table |
-| DNS 1         | 10.10.4.204      | cat /etc/resolv.conf     |
+| DNS 1         | 10.0.1.1         | cat /etc/resolv.conf     |
 | DNS 2         | 1.1.1.1          | nslookup uek.krakow.pl   |
+
+Dla win - ipconfig /all
+
+### Konfiguracja połączenia sieciowego dowolnego urządzenia
+
+| Parametr | wartość           | komentarzu |
+| ------------- |:-------------:| -----:|
+| Adres IP      | 10.0.1.60       | przydzielony przez DHCP |
+| Maska podsieci| 10.0.1.60/**24** | **255.255.255.0**       |
+| Brama         | 10.0.1.1         |                        |
+| DNS 1         | 10.0.1.1         |                        |
+| DNS 2         | 1.1.1.1          |                        |
 
 ### Schemat sieci
 
@@ -65,5 +79,5 @@ aby załączyć obrazek
 ![alt schemat](images/my-network-schema.png)
 ```
 
-![my network](network.png)
+![my network](siec_domowa.png)
 
